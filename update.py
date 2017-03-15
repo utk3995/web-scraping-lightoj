@@ -127,7 +127,7 @@ indexfile.write('\t<title>List of Problems</title>\n')
 indexfile.write('<body style="background: white; font-family: Helvetica">\n')
 indexfile.write('<h1> List of solved problems </h1>\n')
 
-indexfile.write('<h2> <a href="files/tags/" target="_blank"> Search by Tags </a></h2><br/>\n')
+indexfile.write('<h2> <a href="files/tags/"> Search by Tags </a></h2><br/>\n')
 
 fil = "./website/files/tags/*"
 os.system('rm '+fil)
